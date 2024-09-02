@@ -663,13 +663,13 @@ h2 {
 
 .center-btn {
     display: flex !important;
-    justify-content: center !important; /* مرکز چین کردن به صورت افقی */
-    align-items: center !important; /* مرکز چین کردن به صورت عمودی (اختیاری) */
-    height: 100% !important; /* برای اطمینان از اینکه Flexbox کار می‌کند */
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100% !important;
 }
 
 .header-desktop {
-    text-align: center !important; /* مرکز چین کردن محتوای داخل دیو */
+    text-align: center !important;
 }
 
 
