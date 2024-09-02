@@ -434,14 +434,16 @@ input:-ms-input-placeholder {
 .home-bg .header-details{
 	padding-top:400px;
 	color:#314a5b;
+
+
 }
 
 
-.header-details-1{
-	padding-top:400px;
-	color:#314a5b;
-    margin-bottom: 0px;
-}
+/*.header-details-1{*/
+/*	padding-top:400px;*/
+/*	color:#314a5b;*/
+/*    margin-bottom: 0px;*/
+/*}*/
 .home-bg .header-details h1{
 	text-transform:uppercase;
 	font-family: 'montserratbold';
@@ -466,7 +468,8 @@ input:-ms-input-placeholder {
 	color:white;
 	font-size:15px;
 	margin-top:30px;
-    margin-right: 200px;
+    margin-right: -3px;
+
 }
 .home-bg .header-details button:hover{
 	background:#cf0f1a;
@@ -563,8 +566,8 @@ input:-ms-input-placeholder {
 }
 
 .team  img{
-	float:left;
-	margin-right: 20px;
+	float:right;
+	margin-left: 30px;
 }
 
 .team .team-info h2{
@@ -610,6 +613,7 @@ input:-ms-input-placeholder {
 }
 .social-network a i:hover{
 	color:red;
+    display: inline-flex;
 }
 .copyright p{
 	font-size:13px;
@@ -629,6 +633,45 @@ input:-ms-input-placeholder {
 		right:50px;
 		font-weight:bold;
 	}
+
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazirmatn[wght].woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Vazir', sans-serif;
+}
+
+h1 {
+    font-family: 'Yekan', sans-serif !important;
+}
+h2 {
+    font-family: 'Yekan', sans-serif !important;
+}
+
+.center-btn {
+    display: flex !important;
+    justify-content: center !important; /* مرکز چین کردن به صورت افقی */
+    align-items: center !important; /* مرکز چین کردن به صورت عمودی (اختیاری) */
+    height: 100% !important; /* برای اطمینان از اینکه Flexbox کار می‌کند */
+}
+
+.header-desktop {
+    text-align: center !important; /* مرکز چین کردن محتوای داخل دیو */
+}
+
 
 
 
